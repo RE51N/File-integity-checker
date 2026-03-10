@@ -1,0 +1,10 @@
+# Runtime dependencies for the Image Hidden Data Scanner
+#
+# Install with:
+#   pip install -r requirements.txt
+
+# Image reading, EXIF extraction, and format validation
+Pillow>=10.0.0
+
+# ANSI colour output on Windows CMD (graceful fallback if absent)
+colorama>=0.4.6
